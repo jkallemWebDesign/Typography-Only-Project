@@ -1,0 +1,91 @@
+/* ✅ Topic and Content */
+/* ✅ Style Tile */
+/* ✅ Setup on GitHub */
+/* ✅ Setup on Netlify */
+/* 
+https://www.figma.com/color-wheel/
+ ✅ CSS Variables
+*/
+/* ✅ Box Model */
+
+/* ✅ Float Property */
+
+/* ✅ Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* ✅  Style Guide via CSS Variables*/
+:root{
+  --color1: #FFB10B;
+  --color2: #00d291;
+  --color3: #d6acff;
+  --primaryfont: "Teachers", sans-serif;
+  
+}
+
+body{
+   font-family: var(--primaryfont);
+  
+   background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+h1 {
+  color: var(--color1);
+}
+
+h2 {
+  color: var(--color2);
+}
+
+li {
+  color: var(--color2);
+}
+
+blockquote {
+  border-left: solid 10px var(--color2);
+  padding-left: 20px;
+}
+
+main{
+  width: 24%;
+  margin: 0 auto;
+  padding: 53px;
+  background: #ffffffba;
+  
+
+
+
+
+}
+
+span{
+ color: #00573a;
+  
+  background: var(--color1);
+  margin: 15px;
+  padding 15px;
+  
+  font-size: 5rem;
+  float: left;
+}
+
+/* Parent */
+main {
+  position: relative;
+}
+
+/* Child */
+h1 {
+  background: #4e0073;
+  padding: 9px;
+  
+  top: 18px;
+  right: -70px;
+  position: absolute;
+  
+  margin: 0;
+  
+}
